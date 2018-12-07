@@ -1,0 +1,11 @@
+:root {
+  --text-color: white;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.HomePage {
+  background-image: url("img/pelicans.png");
+}
