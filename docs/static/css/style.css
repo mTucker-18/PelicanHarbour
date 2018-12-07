@@ -2,10 +2,86 @@
   --text-color: white;
 }
 
+/* Whole Page CSS */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.MainContent {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 6;
+  grid-template-columns: 2;
+}
+
+/* Navigation Bar */
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: grey;
+  opacity: 0.6;
+  overflow: hidden;
+  /* text-shadow: 1px; */
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline;
+  padding: 5px;
+  float: right;
+  text-align: right;
+}
+
+/* Home Page */
 .HomePage {
-  background-image: url("img/pelicans.png");
+  grid-row: 2;
+}
+
+/* Welcome Page */
+.WelcomePage {
+  grid-row: 3;
+}
+
+/* About Page */
+.AboutPage {
+  grid-row: 4;
+}
+
+/* Contact Page */
+.ContactPage {
+  grid-row: 5;
+}
+
+/* Gallery Page */
+.GalleryPage {
+  grid-row: 6;
+}
+
+/* Scroll snap for later */
+.scroller {
+
+  scroll-snap-type: mandatory;
+
+  /* older spec implementation */
+  scroll-snap-destination: 0% 100%;
+  scroll-snap-points-y: repeat(100%);
+}
+
+.page {
+  scroll-snap-align: start;
 }
