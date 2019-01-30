@@ -1,7 +1,3 @@
-:root {
-  --text-color: white;
-}
-
 /* Whole Page CSS */
 body {
   font-family: 'Roboto', sans-serif;
@@ -9,6 +5,7 @@ body {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -23,15 +20,21 @@ a {
   grid-template-columns: 2;
 }
 
+/* Logo pic */
+.NavLogo {
+  position: absolute;
+  z-index: 2;
+  width: 15%;
+  padding-left: 45%;
+}
+
 /* Navigation Bar */
 .nav {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: grey;
-  opacity: 0.6;
+  background: rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  /* text-shadow: 1px; */
 }
 
 .nav-list {
@@ -42,9 +45,12 @@ a {
 
 .nav-item {
   display: inline;
-  padding: 5px;
+  padding: 20px 60px 40px 0px;
   float: right;
-  text-align: right;
+}
+
+.nav-item strong {
+  text-shadow: 1px 1px gray;
 }
 
 /* Home Page */
