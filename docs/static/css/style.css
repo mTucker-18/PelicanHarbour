@@ -63,12 +63,53 @@ a {
   grid-row: 3;
 }
 
-/* About Page */
+/* ****************About Page**************** */
 .AboutPage {
   grid-row: 4;
 }
 
-/* Contact Page */
+.AboutPage section {
+  color: black;
+  text-align: center;
+}
+
+.AboutPage div {
+  height: 100%;
+}
+
+.AboutPage article {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translate(0, -50%);
+  padding: 1rem;
+}
+
+.AboutPage hr {
+  width: 20%;
+  background-color: red;
+  border-color: red;
+}
+
+.AboutPage .container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.AboutPage .left-side {
+  background: white;
+  grid-column: 1;
+}
+
+.AboutPage .right-side {
+  grid-column: 2;
+}
+
+.AboutPage img {
+  grid-column: 2;
+}
+
+/* *****************Contact Page********************** */
 .ContactPage {
   grid-row: 5;
 }
