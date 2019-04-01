@@ -58,7 +58,7 @@ a {
   grid-row: 2;
 }
 
-/* Welcome Page */
+/*************************** Welcome Page **********************/
 .WelcomePage {
   grid-row: 3;
   height: 100%;
@@ -118,7 +118,7 @@ transform: translate(0%, -1110%);
   grid-column: 1;
   display: grid;
   grid-template-columns: 25% 50% 25%;
-  grid-template-rows: 13% auto;
+  grid-template-rows: 10% auto;
 }
 
 .AboutPage article h1 {
@@ -159,6 +159,7 @@ transform: translate(0%, -1110%);
 
 .AboutPage img {
   grid-column: 2;
+  padding-top: 0;
 }
 
 /* *****************Contact Page********************** */
