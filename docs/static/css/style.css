@@ -1,9 +1,4 @@
 /* Whole Page CSS */
-* {
-  margin: 0;
-  padding: 0;
-  }
-
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -100,23 +95,14 @@ a {
 
 .AboutPage section {
   color: black;
-  text-align: center;
 }
 
 .AboutPage div {
   height: 100%;
 }
 
- .AboutPage article {
-  position: relative;
-  top: 50%;
-  text-align: center;
-  transform: translate(0, -50%);
-  padding: 1rem;
-}
-
 .AboutPage hr {
-  width: 20%;
+  width: 25%;
   background-color: red;
   border-color: red;
 }
@@ -129,10 +115,45 @@ a {
 .AboutPage .left-side {
   background: white;
   grid-column: 1;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 13% auto;
+}
+
+.AboutPage article h1 {
+  font-size: 250%;
+  grid-row: 2;
+}
+
+.AboutPage .left-side article {
+  grid-column: 2;
+  grid-row: 2;
+  position: relative;
+  top: 50%;
+  text-align: left;
+  transform: translate(0, -50%);
+  padding: 1rem;
+}
+
+.AboutPage article p {
+  margin-top: 2vw;
+  font-size: 115%;
+  line-height: 2;
 }
 
 .AboutPage .right-side {
   grid-column: 2;
+}
+
+.AboutPage .right-side .imgText {
+  position: relative;
+  color: white;
+  height: 3%;
+  padding: 40px 250px 40px 250px;
+  text-align: center;
+  font-size: 115%;
+  transform: translate(0, -545%);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .AboutPage img {
