@@ -61,6 +61,31 @@ a {
 /* Welcome Page */
 .WelcomePage {
   grid-row: 3;
+  height: 100%;
+
+}
+.WelcomeImage {
+  height: 100%;
+  width: 100%;
+}
+.WelcomePage hr {
+  width: 20%;
+  background-color: red;
+  border-color: red;
+}
+.WelcomePage h1 {
+  position: relative;
+  text-align: center;
+  transform: translate(0%, -2500%);
+  font-size: 115%;
+  color: white;
+}
+.WelcomePage .sealtext {
+  position: relative;
+  text-align: center;
+  transform: translate(0%, -1500%);
+  font-size: 115%;
+  color: white;
 }
 
 /* ****************About Page**************** */
