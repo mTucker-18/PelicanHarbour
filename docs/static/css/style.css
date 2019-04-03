@@ -167,7 +167,11 @@ transform: translate(0%, -1110%);
   grid-row: 5;
 }
 
-/* Gallery Page */
+form {
+  
+}
+
+/************************* Gallery Page *********************/
 .GalleryPage {
   grid-row: 6;
 }
