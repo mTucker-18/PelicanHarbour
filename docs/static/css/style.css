@@ -35,6 +35,7 @@ a {
   top: 0;
   background: rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  z-index: 5;
 }
 
 .nav-list {
@@ -232,6 +233,21 @@ transform: translate(0%, -1110%);
 /************************* Gallery Page *********************/
 .GalleryPage {
   grid-row: 6;
+
+}
+.mySlides {
+  display:none;
+  height: 100%;
+  width: 100%;
+}
+.w3-left, .w3-right, .w3-badge {
+  cursor:pointer;
+  position: relative;
+}
+.w3-badge {
+  height:13px;
+  width:13px;
+  padding:0;
 }
 
 /* Scroll snap for later */
