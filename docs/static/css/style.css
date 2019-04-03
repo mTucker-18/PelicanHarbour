@@ -101,7 +101,7 @@ transform: translate(0%, -1110%);
 }
 
 .AboutPage div {
-  height: 100%;
+  height: 965px;
 }
 
 .AboutPage hr {
@@ -166,9 +166,71 @@ transform: translate(0%, -1110%);
 /* *****************Contact Page********************** */
 .ContactPage {
   grid-row: 5;
+  height: 1200px;
 }
 
-/* Gallery Page */
+.ContactPage .pageCard {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 100px 50px 100px 50px;
+  height: 500px;
+  width: 80%;
+  transform: translate(120px, -150%);
+  font-size: 120%;
+  display: grid;
+  grid-template-columns: 25% 30% auto;
+}
+
+.ContactPage .pageCard .location {
+  grid-column: 1;
+}
+
+.ContactPage .pageCard .mailing {
+  grid-column: 2;
+}
+
+.ContactPage .pageCard .contact {
+  grid-column: 1;
+}
+
+.ContactPage .pageCard .office {
+  grid-column: 2;
+}
+
+.ContactPage .pageCard .intro {
+  line-height: 1.6;
+}
+
+.ContactPage .pageCard p {
+  line-height: 0.8;
+}
+
+.ContactPage .formCard h1 {
+  color: black;
+  width: 100%;
+}
+
+.ContactPage .formCard hr {
+  width: 25%;
+  background-color: red;
+  border-color: red;
+}
+
+.formCard {
+  position: relative;
+  text-align: center;
+  background: white;
+  width: 75%;
+  height: 650px;
+  transform: translate(110px, -45%);
+}
+
+/* Add some padding inside the card container */
+.cardContainer {
+  padding: 25px 50px;
+}
+
+/************************* Gallery Page *********************/
 .GalleryPage {
   grid-row: 6;
 
