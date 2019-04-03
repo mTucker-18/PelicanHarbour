@@ -100,7 +100,7 @@ transform: translate(0%, -1110%);
 }
 
 .AboutPage div {
-  height: 100%;
+  height: 965px;
 }
 
 .AboutPage hr {
@@ -165,10 +165,40 @@ transform: translate(0%, -1110%);
 /* *****************Contact Page********************** */
 .ContactPage {
   grid-row: 5;
+  height: 1200px;
 }
 
-form {
-  
+.ContactPage .pageCard {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 100px 50px 100px 50px;
+  height: 600px;
+  width: 80%;
+}
+
+.ContactPage .formCard h1 {
+  color: black;
+  width: 100%;
+}
+
+.ContactPage .formCard hr {
+  width: 25%;
+  background-color: red;
+  border-color: red;
+}
+
+.formCard {
+  position: relative;
+  text-align: center;
+  background: white;
+  width: 28%;
+  height: 600px;
+  transform: translate(1105px, -150%);
+}
+
+/* Add some padding inside the card container */
+.cardContainer {
+  padding: 25px 50px;
 }
 
 /************************* Gallery Page *********************/
