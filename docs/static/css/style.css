@@ -172,8 +172,32 @@ transform: translate(0%, -1110%);
   background: rgba(0, 0, 0, 0.6);
   color: white;
   padding: 100px 50px 100px 50px;
-  height: 600px;
+  height: 500px;
   width: 80%;
+  transform: translate(120px, -150%);
+  font-size: 120%;
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+}
+
+.ContactPage .pageCard .location {
+  grid-column: 1;
+}
+
+.ContactPage .pageCard .mailing {
+  grid-column: 2;
+}
+
+.ContactPage .pageCard .contact {
+  grid-column: 1;
+}
+
+.ContactPage .pageCard .office {
+  grid-column: 2;
+}
+
+.ContactPage .pageCard p {
+  margin-top: 0;
 }
 
 .ContactPage .formCard h1 {
@@ -191,9 +215,9 @@ transform: translate(0%, -1110%);
   position: relative;
   text-align: center;
   background: white;
-  width: 28%;
-  height: 600px;
-  transform: translate(1105px, -150%);
+  width: 75%;
+  height: 650px;
+  transform: translate(50px, -40%);
 }
 
 /* Add some padding inside the card container */
