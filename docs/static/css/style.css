@@ -177,7 +177,7 @@ transform: translate(0%, -1110%);
   transform: translate(120px, -150%);
   font-size: 120%;
   display: grid;
-  grid-template-columns: 30% 30% 40%;
+  grid-template-columns: 25% 30% auto;
 }
 
 .ContactPage .pageCard .location {
@@ -196,8 +196,12 @@ transform: translate(0%, -1110%);
   grid-column: 2;
 }
 
+.ContactPage .pageCard .intro {
+  line-height: 1.6;
+}
+
 .ContactPage .pageCard p {
-  margin-top: 0;
+  line-height: 0.8;
 }
 
 .ContactPage .formCard h1 {
@@ -217,7 +221,7 @@ transform: translate(0%, -1110%);
   background: white;
   width: 75%;
   height: 650px;
-  transform: translate(50px, -40%);
+  transform: translate(110px, -45%);
 }
 
 /* Add some padding inside the card container */
