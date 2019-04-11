@@ -35,7 +35,7 @@ a {
   top: 0;
   background: rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  z-index: 5;
+  z-index: 3;
 }
 
 .nav-list {
@@ -63,18 +63,19 @@ a {
 .WelcomePage {
   grid-row: 3;
   height: 100%;
-
-
 }
+
 .WelcomeImage {
   height: 100%;
   width: 100%;
 }
+
 .WelcomePage hr {
   width: 9%;
   background-color: red;
   border-color: red;
 }
+
 .WelcomePage h1 {
   position: relative;
   text-align: center;
@@ -82,6 +83,7 @@ a {
   color: white;
   margin-bottom: 2.5vh;
 }
+
 .WelcomePage .sealtext {
   position: absolute;
   text-align: center;
@@ -91,6 +93,7 @@ a {
   line-height: 2rem;
   margin-top: 0.5vh;
 }
+
 .WelcomePage article {
 transform: translate(0%, -1110%);
 }
