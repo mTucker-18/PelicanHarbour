@@ -42,16 +42,16 @@ a {
 /* *****************Contact Page********************** */
 .ContactPage img {
   /* grid-row: 5; */
-  max-height: 900px;
+  /* max-height: 900px; */
 }
 
 .ContactPage .pageCard {
   background: rgba(0, 0, 0, 0.6);
   color: white;
-  padding: 100px 50px 100px 50px;
-  height: 500px;
-  width: 80%;
-  transform: translate(120px, -150%);
+  padding: 100px 50px 100px 70px;
+  height: 650px;
+  width: 87%;
+  transform: translate(120px, -160%);
   font-size: 120%;
   display: grid;
   grid-template-columns: 25% 30% auto;
@@ -87,16 +87,17 @@ a {
 }
 
 .ContactPage .formCard hr {
-  width: 25%;
+  width: 28%;
   background-color: red;
   border-color: red;
+  transform: translate(0px, 0%);
 }
 
 .formCard {
   position: relative;
-  text-align: center;
+  text-align: left;
   background: white;
-  width: 75%;
+  width: 70%;
   height: 650px;
   transform: translate(110px, -45%);
 }
@@ -104,4 +105,31 @@ a {
 /* Add some padding inside the card container */
 .cardContainer {
   padding: 25px 50px;
+}
+
+/* Form styling */
+.formCard input {
+  width: 90%;
+  margin-top: 12px;
+  padding: 10px;
+  color: gray;
+  border: 2px solid #C8CCCE;
+}
+
+.formCard textarea {
+  width: 90%;
+  height: 150px;
+  margin-top: 12px;
+  padding: 10px;
+  color: gray;
+  border: 2px solid #C8CCCE;
+  resize: none;
+}
+
+.formCard input[type=submit] {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
 }
