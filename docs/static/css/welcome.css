@@ -1,0 +1,76 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.NavLogo {
+  position: absolute;
+  z-index: 2;
+  width: 15%;
+  padding-left: 45%;
+}
+
+/* Navigation Bar */
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  z-index: 3;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline;
+  padding: 20px 60px 40px 0px;
+  float: right;
+}
+
+.nav-item strong {
+  text-shadow: 1px 1px gray;
+}
+.WelcomePage {
+  /* height: 100%; */
+}
+
+.WelcomeImage {
+  width: 100%;
+}
+
+.WelcomePage hr {
+  width: 9%;
+  background-color: red;
+  border-color: red;
+  margin-left: 46%;
+}
+
+.WelcomePage h1 {
+  position: relative;
+  text-align: center;
+  font-size: 275%;
+  color: white;
+  margin-bottom: 2.5vh;
+}
+
+.WelcomePage .sealtext {
+  position: absolute;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+  padding: 2% 32% 0 32%;
+  line-height: 2rem;
+  margin-top: 0.5vh;
+}
+
+.WelcomePage article {
+transform: translate(0%, -1300%);
+}
