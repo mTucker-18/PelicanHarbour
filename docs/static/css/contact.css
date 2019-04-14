@@ -40,9 +40,9 @@ a {
 }
 
 /* *****************Contact Page********************** */
-.ContactPage {
-  grid-row: 5;
-  height: 1200px;
+.ContactPage img {
+  /* grid-row: 5; */
+  max-height: 900px;
 }
 
 .ContactPage .pageCard {
