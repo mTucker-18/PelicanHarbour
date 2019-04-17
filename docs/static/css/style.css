@@ -3,22 +3,22 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 a {
   text-decoration: none;
   color: white;
 }
 
-.MainContent {
+/* .MainContent {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 6;
   grid-template-columns: 2;
-}
+} */
 
 /* Logo pic */
 .NavLogo {
