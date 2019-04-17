@@ -3,29 +3,21 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* img {
-  max-width: 100%;
-  height: auto;
-} */
 
 a {
   text-decoration: none;
   color: white;
 }
 
-/* .MainContent {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 6;
-  grid-template-columns: 2;
-} */
 
 /* Logo pic */
 .NavLogo {
   position: absolute;
   z-index: 2;
-  width: 15%;
-  padding-left: 45%;
+  width: 300px;
+  top: 0;
+  left: 0;
+  margin-left: 900px;
 }
 
 /* Navigation Bar */
@@ -35,7 +27,7 @@ a {
   top: 0;
   background: rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  z-index: 3;
+  z-index: 1;
 }
 
 .nav-list {
@@ -54,215 +46,9 @@ a {
   text-shadow: 1px 1px gray;
 }
 
-/* Home Page */
-.HomePage {
-  grid-row: 2;
-}
-
-/*************************** Welcome Page **********************/
-.WelcomePage {
-  grid-row: 3;
-  height: 100%;
-}
-
-.WelcomeImage {
-  height: 100%;
-  width: 100%;
-}
-
-.WelcomePage hr {
-  width: 9%;
-  background-color: red;
-  border-color: red;
-  margin-left: 46%;
-}
-
-.WelcomePage h1 {
-  position: relative;
-  text-align: center;
-  font-size: 275%;
-  color: white;
-  margin-bottom: 2.5vh;
-}
-
-.WelcomePage .sealtext {
-  position: absolute;
-  text-align: center;
-  font-size: 100%;
-  color: white;
-  padding: 2% 32% 0 32%;
-  line-height: 2rem;
-  margin-top: 0.5vh;
-}
-
-.WelcomePage article {
-transform: translate(0%, -1110%);
-}
-
-/* ****************About Page**************** */
-.AboutPage {
-  grid-row: 4;
-}
-
-.AboutPage div {
-  height: 965px;
-}
-
-.AboutPage hr {
-  width: 25%;
-  background-color: red;
-  border-color: red;
-}
-
-.AboutPage .container {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.AboutPage .left-side {
-  grid-column: 1;
-  display: grid;
-  grid-template-columns: 25% 50% 25%;
-  grid-template-rows: 10% auto;
-}
-
-.AboutPage article h1 {
-  font-size: 250%;
-  grid-row: 2;
-}
-
-.AboutPage .left-side article {
-  grid-column: 2;
-  grid-row: 2;
-  position: relative;
-  top: 50%;
-  text-align: left;
-  transform: translate(0, -50%);
-  padding: 1rem;
-}
-
-.AboutPage article p {
-  margin-top: 2vw;
-  font-size: 115%;
-  line-height: 2;
-}
-
-.AboutPage .right-side {
-  grid-column: 2;
-}
-
-.AboutPage .right-side .imgText {
-  position: relative;
-  color: white;
-  height: 3%;
-  padding: 40px 250px 40px 250px;
-  text-align: center;
-  font-size: 115%;
-  transform: translate(0, -545%);
-  background: rgba(0, 0, 0, 0.6);
-}
-
-.AboutPage img {
-  grid-column: 2;
-  padding-top: 0;
-}
-
-/* *****************Contact Page********************** */
-.ContactPage {
-  grid-row: 5;
-  height: 1200px;
-}
-
-.ContactPage .pageCard {
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-  padding: 100px 50px 100px 50px;
-  height: 500px;
-  width: 80%;
-  transform: translate(120px, -150%);
-  font-size: 120%;
-  display: grid;
-  grid-template-columns: 25% 30% auto;
-}
-
-.ContactPage .pageCard .location {
-  grid-column: 1;
-}
-
-.ContactPage .pageCard .mailing {
-  grid-column: 2;
-}
-
-.ContactPage .pageCard .contact {
-  grid-column: 1;
-}
-
-.ContactPage .pageCard .office {
-  grid-column: 2;
-}
-
-.ContactPage .pageCard .intro {
-  line-height: 1.6;
-}
-
-.ContactPage .pageCard p {
-  line-height: 0.8;
-}
-
-.ContactPage .formCard h1 {
-  color: black;
-  width: 100%;
-}
-
-.ContactPage .formCard hr {
-  width: 25%;
-  background-color: red;
-  border-color: red;
-}
-
-.formCard {
-  position: relative;
-  text-align: center;
-  background: white;
-  width: 75%;
-  height: 650px;
-  transform: translate(110px, -45%);
-}
-
-/* Add some padding inside the card container */
-.cardContainer {
-  padding: 25px 50px;
-}
-
-/************************* Gallery Page *********************/
-.GalleryPage {
-  grid-row: 6;
-
-}
-.mySlides {
-  /* display:none;
-  height: 100%;
-  width: 100%; */
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;
-  overflow: auto;
-}
-
-}
-.w3-left, .w3-right, .w3-badge {
-  cursor:pointer;
-  position: relative;
-}
-.w3-badge {
-  height:13px;
-  width:13px;
-  padding:0;
+/************************* Home Page *******************************/
+.HomePage .HomeImage {
+  z-index: -1;
 }
 
 /* Scroll snap for later */
