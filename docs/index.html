@@ -27,7 +27,7 @@
           <li class="nav-item"><a href="pages/contact.html#Contact"><strong>CONTACT</strong></a></li>
           <li class="nav-item"><a href="pages/about.html#About"><strong>ABOUT</strong></a></li>
           <li class="nav-item"><a href="pages/welcome.html#Welcome"><strong>WELCOME</strong></a></li>
-          <li class="nav-item"><a href="pages/index.html#Home"><strong>HOME</strong></a></li>
+          <li class="nav-item"><a href="../index.html#Home"><strong>HOME</strong></a></li>
         </ul>
       </div>
 
@@ -37,141 +37,10 @@
         </div>
         <img class="HomeImage" src="static/img/pelicans.png" alt="Pelicans on a piling">
       </div>
-
-      <div class="WelcomePage" id="Welcome">
-        <img class="WelcomeImage" src="static/img/seals1.png" alt="Seals laying down">
-        <article>
-          <h1>WELCOME</h1>
-          <hr >
-          <div class="sealtext">Located just two miles north of the Golden Gate Bridge, this beautiful marina, built in the historic maritime city of Sausalito, offers what you need for your yachting adventures of relaxation. Monthly berthing is available for your sailboat or motor yacht.</div>
-      </article>
-      </div>
-
-      <div class="AboutPage" id="About">
-        <section class="container">
-          <div class="left-side">
-            <article>
-              <h1>ABOUT US</h1>
-              <hr align="left">
-              <p>Close to downtown Sausalito, Pelican Harbour is an easy sail or motor to the
-                Golden Gate Bridge, Angel Island, Tiburon, and the world renown San Francisco
-                Bay. When your day on the water is done, enjoy fine dining at one of the many
-                award-winning restaurants within walking distance.</p>
-              <p> Marina amenities include shower facilities, coin laundry and pump out connections
-                at each berth.</p>
-              <p>Please contact us to discuss berthing options.</p>
-            </article>
-          </div>
-          <div class="right-side">
-            <img class="AboutImage" src="static/img/about1.png" alt="Marina from above">
-            <div class="imgText">With 90 berths ranging from 30> to 65>, Pelican Harbour would be a
-                perfect fit for your vessel.</div>
-          </div>
-        </section>
-      </div>
-
-      <div class="ContactPage" id="Contact">
-        <img class="ContactImage" src="static/img/contact.png" alt="Marina close up">
-        <div class="pageCard">
-          <p class="intro">Call or email us today for availability and monthly rates.
-            Please note that Pelican Harbour has no transient berthing.</p>
-            <div class="location">
-              <p><strong>Location:</strong></p>
-              <p>Pelican Harbour</p>
-              <p>200 Johnson Street</p>
-              <p>Sausalito, CA 94965</p>
-            </div>
-            <div class="mailing">
-              <p><strong>Mailing Address:</strong></p>
-              <p>Pelican Harbour</p>
-              <p>PO Box 495</p>
-              <p>Sausalito, CA 94966</p>
-            </div>
-            <div class="contact">
-              <p><strong>Contact:</strong></p>
-              <p>Phone: 415-332-0723</p>
-              <p>Fax: 415-331-3450</p>
-              <p>Email: PelicanHarbour@att.net</p>
-            </div>
-            <div class="office">
-              <p><strong>Office Hours:</strong></p>
-              <p>Monday - Friday</p>
-              <p>9:00am - 5:00pm</p>
-            </div>
-          <div class="formCard">
-            <div class="cardContainer">
-              <h1>CONTACT US</h1>
-              <hr align="center">
-              <form>
-                <div class="row">
-                  <input type="text" id="name" name="firstname" placeholder="name">
-                </div>
-                <div class="row">
-                  <input type="text" id="phone" name="phone" placeholder="phone">
-                </div>
-                <div class="row">
-                  <input type="text" id="address" name="address" placeholder="address">
-                </div>
-                <div class="row">
-                  <input type="text" id="subject" name="subject" placeholder="subject">
-                </div>
-                <div class="row">
-                  <textarea id="message" name="message" placeholder="message"></textarea>
-                </div>
-                <div class="row">
-                  <input type="submit" value="submit">
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="GalleryPage" id="Gallery">
-        <div class="w3-content w3-display-container" style="max-width:800px">
-          <img class="mySlides" src="static/img/pelicans.png" style="width:100%">
-          <img class="mySlides" src="static/img/contact.png" style="width:100%">
-          <img class="mySlides" src="static/img/seals1.png" style="width:100%">
-          <img class="mySlides" src="static/img/about1.png" style="width:100%">
-          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-          </div>
     </div>
-  </div>
+
   <script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
-
-  function currentDiv(n) {
-    showDivs(slideIndex = n);
-  }
-
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" w3-white", "");
-    }
-    x[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " w3-white";
-  }
   </script>
 
   </body>
-
 </html>
