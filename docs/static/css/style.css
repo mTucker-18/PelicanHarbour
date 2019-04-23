@@ -3,7 +3,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
 a {
   text-decoration: none;
   color: white;
@@ -51,15 +50,42 @@ a {
 }
 
 /* if viewed on an iPad */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* body {
-    max-width: 100%;
-  } */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  img {
+    max-height: 768px;
+    max-width: 1024px;
+  }
 
   /* Logo pic */
   .NavLogo {
-    width: 600px;
-    margin-left: 200px;
+    width: 170px;
+    margin-left: 427px;
+    margin-top: 10px;
+  }
+
+  /* Navigation Bar */
+  .nav {
+    width: 1024px;
+  }
+
+  .nav-item {
+    display: inline;
+    padding: 20px 20px 40px 0px;
+  }
+}
+
+/* if viewed on an iPad Pro*/
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  img {
+    max-height: 1024px;
+    max-width: 1366px;
+  }
+
+  /* Logo pic */
+  .NavLogo {
+    width: 200px;
+    margin-left: 583px;
+    margin-top: 10px;
   }
 
   /* Navigation Bar */
@@ -69,13 +95,9 @@ a {
 
   .nav-item {
     display: inline;
-    padding: 20px 60px 40px 0px;
+    padding: 20px 50px 40px 0px;
   }
 }
-
-
-
-
 
 
 
