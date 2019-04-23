@@ -58,8 +58,6 @@ a {
   text-align: center;
   font-size: 310%;
   color: white;
-  /* margin-bottom: 2.5vh; */
-  /* font-weight: 200; */
 }
 
 .WelcomePage .sealtext {
@@ -69,9 +67,82 @@ a {
   color: white;
   padding: 2% 32% 0 32%;
   line-height: 2rem;
-  /* margin-top: 0.5vh; */
 }
 
 .WelcomePage article {
-transform: translate(0%, -1100%);
+  transform: translate(0%, -1100%);
+}
+
+/* if viewed on an iPad */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  img {
+    max-height: 768px;
+    max-width: 1024px;
+  }
+
+  /* Navigation Bar */
+  .nav {
+    width: 1024px;
+  }
+
+  .nav-item {
+    display: inline;
+    padding: 20px 20px 40px 0px;
+  }
+
+  .WelcomePage hr {
+    width: 9%;
+    margin-left: 45.5%;
+  }
+
+  .WelcomePage h1 {
+    font-size: 200%;
+  }
+
+  .WelcomePage .sealtext {
+    padding: 2% 30% 0 30%;
+    font-size: 79%;
+    line-height: 1.6rem;
+  }
+
+  .WelcomePage article {
+    transform: translate(0%, -820%);
+  }
+}
+
+/* if viewed on an iPad Pro*/
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  img {
+    max-height: 1024px;
+    max-width: 1366px;
+  }
+
+  /* Navigation Bar */
+  .nav {
+    width: 100%;
+  }
+
+  .nav-item {
+    display: inline;
+    padding: 20px 50px 40px 0px;
+  }
+
+  .WelcomePage hr {
+    width: 9%;
+    margin-left: 45.5%;
+  }
+
+  .WelcomePage h1 {
+    font-size: 310%;
+  }
+
+  .WelcomePage .sealtext {
+    padding: 2% 30% 0 30%;
+    font-size: 110%;
+    line-height: 1.6rem;
+  }
+
+  .WelcomePage article {
+    transform: translate(0%, -820%);
+  }
 }
