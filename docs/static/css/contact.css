@@ -13,6 +13,10 @@ a {
   color: white;
 }
 
+.container {
+  height: 1200px;
+}
+
 /* Navigation Bar */
 .nav {
   width: 100%;
@@ -40,9 +44,12 @@ a {
 }
 
 /* *****************Contact Page********************** */
-.ContactPage img {
-  /* grid-row: 5; */
-  /* max-height: 900px; */
+.container {
+  max-height: 1200px;
+}
+
+.ContactPage {
+  max-height: 1200px;
 }
 
 .ContactPage .pageCard {
@@ -55,6 +62,7 @@ a {
   font-size: 120%;
   display: grid;
   grid-template-columns: 25% 30% auto;
+
 }
 
 .ContactPage .pageCard .location {
