@@ -50,7 +50,10 @@ img {
 
 /* Hide the images by default */
 .mySlides {
+  max-width: 100%;
+  max-height: 655px;
   display: none;
+  overflow: hidden;
 }
 
 .mySlides img {
@@ -73,7 +76,7 @@ img {
   position: absolute;
   width: auto;
   padding: 16px;
-  margin-top: -550px;
+  margin-top: -350px;
   color: white;
   font-weight: bold;
   font-size: 60px;
