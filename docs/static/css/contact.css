@@ -59,9 +59,9 @@ a {
   height: 650px;
   width: 87%;
   transform: translate(120px, -160%);
-  font-size: 120%;
+  font-size: 140%;
   display: grid;
-  grid-template-columns: 25% 30% auto;
+  grid-template-columns: 25% 25% auto;
 }
 
 .ContactPage .pageCard .location {
@@ -81,7 +81,8 @@ a {
 }
 
 .ContactPage .pageCard .intro {
-  line-height: 1.6;
+  grid-column: span 2;
+  line-height: 1.5;
 }
 
 .ContactPage .pageCard p {
@@ -106,7 +107,7 @@ a {
   background: white;
   width: 70%;
   height: 650px;
-  transform: translate(110px, -45%);
+  transform: translate(150px, -45%);
 }
 
 .cardContainer {
