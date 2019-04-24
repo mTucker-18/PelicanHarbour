@@ -109,3 +109,82 @@ a {
   grid-column: 2;
   max-width: 100%;
 }
+
+/* if viewed on an iPad */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  img {
+    max-height: 768px;
+    max-width: 1024px;
+  }
+
+  /* Logo pic */
+  .NavLogo {
+    width: 170px;
+    margin-left: 427px;
+    margin-top: 10px;
+  }
+
+  /* Navigation Bar */
+  .nav {
+    width: 1024px;
+  }
+
+  .nav-item {
+    display: inline;
+    padding: 20px 20px 40px 0px;
+  }
+
+  .AboutPage .left-side {
+    grid-template-columns: 27% 46% 27%;
+    grid-template-rows: 10% auto;
+  }
+
+  .AboutPage article h1 {
+    font-size: 150%;
+    font-weight: bolder;
+  }
+
+  .AboutPage .left-side article {
+    top: 50%;
+    text-align: left;
+    transform: translate(0, -50%);
+    padding: 1rem;
+  }
+
+  .AboutPage article p {
+    font-size: 75%;
+    line-height: 1.6;
+  }
+
+  .AboutPage .right-side .imgText {
+    height: 8%;
+    padding: 25px 130px 60px 130px;
+    font-size: 75%;
+    transform: translate(0, -430%);
+  }
+}
+
+/* if viewed on an iPad Pro*/
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  img {
+    max-height: 1024px;
+    max-width: 1366px;
+  }
+
+  /* Logo pic */
+  .NavLogo {
+    width: 200px;
+    margin-left: 583px;
+    margin-top: 10px;
+  }
+
+  /* Navigation Bar */
+  .nav {
+    width: 100%;
+  }
+
+  .nav-item {
+    display: inline;
+    padding: 20px 50px 40px 0px;
+  }
+}
