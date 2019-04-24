@@ -14,19 +14,18 @@
     <link href="../static/css/gallery.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="../static/img/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="../static/img/favicon-16x16.png" sizes="16x16" />
-</head>
+  </head>
 
-    <body>
-
-          <div class="nav">
-            <ul class"nav-list">
-              <li class="nav-item"><a href="gallery.html#Gallery"><strong>GALLERY</strong></a></li>
-              <li class="nav-item"><a href="contact.html#Contact"><strong>CONTACT</strong></a></li>
-              <li class="nav-item"><a href="about.html#About"><strong>ABOUT</strong></a></li>
-              <li class="nav-item"><a href="welcome.html#Welcome"><strong>WELCOME</strong></a></li>
-              <li class="nav-item"><a href="../index.html#Home"><strong>HOME</strong></a></li>
-            </ul>
-          </div>
+  <body>
+    <div class="nav">
+      <ul class"nav-list">
+        <li class="nav-item"><a href="gallery.html#Gallery"><strong>GALLERY</strong></a></li>
+        <li class="nav-item"><a href="contact.html#Contact"><strong>CONTACT</strong></a></li>
+        <li class="nav-item"><a href="about.html#About"><strong>ABOUT</strong></a></li>
+        <li class="nav-item"><a href="welcome.html#Welcome"><strong>WELCOME</strong></a></li>
+        <li class="nav-item"><a href="../index.html#Home"><strong>HOME</strong></a></li>
+      </ul>
+    </div>
 
     <div class="container">
       <div class="mySlides">
@@ -65,7 +64,6 @@
       <div class="row">
         <div class="column">
           <img class="demo cursor" src="../static/img/gallery/Journey.jpg" onclick="currentSlide(1)" >
-
         </div>
         <div class="column">
           <img class="demo cursor" src="../static/img/gallery/Lookingdownmarina.jpg" onclick="currentSlide(2)">
@@ -86,34 +84,34 @@
     </div>
 
     <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
+      var slideIndex = 1;
+      showSlides(slideIndex);
 
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      var captionText = document.getElementById("caption");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
       }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
       }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      captionText.innerHTML = dots[slideIndex-1].alt;
-    }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
     </script>
 
     </body>
