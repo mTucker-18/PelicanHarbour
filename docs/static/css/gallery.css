@@ -43,7 +43,7 @@ img {
   text-shadow: 1px 1px gray;
 }
 
-/* Position the image container (needed to position the leand right arrows) */
+/* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
 }
@@ -51,6 +51,14 @@ img {
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+
+.mySlides img {
+  width: 100%;
+}
+
+.demo {
+  width: 100%;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
