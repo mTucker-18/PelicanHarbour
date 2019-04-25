@@ -212,3 +212,56 @@ a {
     transform: translate(0, -520%);
   }
 }
+/* if viewed on an 13" Mac*/
+@media screen and (min-width: 1367px) and (max-width: 1500px) {
+  img {
+    max-height: 1024px;
+    max-width: 1500px;
+  }
+
+  /* Logo pic */
+  .NavLogo {
+    width: 10px;
+    margin-left: 427px;
+    margin-top: 10px;
+  }
+
+  /* Navigation Bar */
+  .nav {
+    width: 100%;
+  }
+
+  .nav-item {
+    display: inline;
+    padding: 20px 50px 40px 0px;
+  }
+
+  .AboutPage .left-side {
+    grid-template-columns: 25% auto 25%;
+    grid-template-rows: 10% auto;
+  }
+
+  .AboutPage article h1 {
+    font-size: 250%;
+    font-weight: bolder;
+  }
+
+  .AboutPage .left-side article {
+    top: 50%;
+    text-align: left;
+    transform: translate(0, -50%);
+    padding: 1rem;
+  }
+
+  .AboutPage article p {
+    font-size: 100%;
+    line-height: 1.6;
+  }
+
+  .AboutPage .right-side .imgText {
+    height: 10%;
+    padding: 30px 160px 70px 160px;
+    font-size: 100%;
+    transform: translate(0, -520%);
+  }
+}
