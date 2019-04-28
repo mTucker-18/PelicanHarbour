@@ -101,7 +101,7 @@ a {
 
   .WelcomePage .sealtext {
     padding: 2% 30% 0 30%;
-    font-size: 79%;
+    font-size: 70%;
     line-height: 1.6rem;
   }
 
@@ -146,3 +146,60 @@ a {
     transform: translate(0%, -820%);
   }
 }
+ /* if view on an 13 Mac */
+@media screen and (min-width: 1367px) and (max-width: 1500px) {
+  img {
+    max-height: 1024px;
+    max-width: 1500px;
+  }
+
+  /* Logo pic */
+  .NavLogo {
+    width: 175px;
+    margin-left: 62px;
+    margin-top: 30px;
+  }
+
+  /* Navigation Bar */
+  .nav {
+    width: 100%;
+  }
+
+  .nav-item {
+    display: inline;
+    padding: 20px 50px 40px 0px;
+  }
+  .WelcomePage {
+    height: 1150px;
+  }
+
+  .WelcomeImage {
+    width: 100%;
+  }
+
+  .WelcomePage hr {
+    width: 7%;
+    background-color: red;
+    border-color: red;
+    margin-left: 46.5%;
+  }
+
+  .WelcomePage h1 {
+    position: relative;
+    text-align: center;
+    font-size: 310%;
+    color: white;
+  }
+
+  .WelcomePage .sealtext {
+    position: absolute;
+    text-align: center;
+    font-size: 130%;
+    color: white;
+    padding: 1% 27% 0 27%;
+    line-height: 2rem;
+  }
+
+  .WelcomePage article {
+    transform: translate(0%, -825%);
+  }
